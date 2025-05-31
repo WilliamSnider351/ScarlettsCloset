@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  text-decoration: none;
+  color: orange;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.sale-container {
+  max-width: 900px;
+  margin: 140px auto 80px;
+  padding: 20px;
+  text-align: left;
+}
+
+.sale-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sale-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sale-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+select {
+  margin-bottom: 10px;
+  padding: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-bag-link,
+.back-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline;
+}
+
+.model-link {
+  color: white;
+  text-decoration: underline;
+}

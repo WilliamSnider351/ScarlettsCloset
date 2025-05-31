@@ -1,0 +1,35 @@
+.product-display {
+  margin-top: 160px;
+  text-align: center;
+  position: relative;
+}
+
+.product-display img {
+  max-width: 350px;
+  border-radius: 10px;
+  margin-bottom: 30px; /* bigger spacing from button */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-to-bag-button {
+  display: inline-block;
+  margin: 0 auto 40px auto; /* center and add bottom margin */
+  max-width: 220px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid white;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 6px;
+}
+
+.add-to-bag-button:hover {
+  background-color: #ff6347;
+  color: white;
+}
